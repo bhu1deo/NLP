@@ -26,14 +26,17 @@ Conclusions:
 3.) The Transformer model has some way to go before applying it on the given exogenous time series data under consideration. 
 
 
+
+
+
 2.) Fast Transformers for next level character prediction: All the following architectures were implemented from scratch in Tensorflow: 
 
 a.) Linformer
 b.) Fast Autoregressive Transformer
 c.) Sparse Transformer
 
+The models worked well on Next Level character prediction. 
 
 Results:
-
-
-Conclusions: 
+The time Required to compute Multi-Head Attention is as follows, for different query,key and value dimensions: 
+ 
